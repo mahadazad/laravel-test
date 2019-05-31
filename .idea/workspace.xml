@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6465ba2d-0919-47fc-9523-ba72ccba7267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BusinessDateController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/BusinessDayCalculator/BusinessDateWithDelay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/BusinessDayCalculator/BusinessDatesPubSubInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/BusinessDayCalculator/BusinessDay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/BusinessDayCalculator/BusinessDayCalculator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/BusinessDayCalculator/BusinessDayCalculatorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/BusinessDayCalculator/RedisPubSub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/business-days.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/BusinessDayCalculatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock" beforeDir="false" afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/env-example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +34,7 @@
           <entry key="gitignore" value="2" />
           <entry key="json" value="1" />
           <entry key="lock" value="1" />
+          <entry key="md" value="1" />
           <entry key="php" value="36" />
           <entry key="xml" value="1" />
         </counts>
@@ -55,6 +43,7 @@
         <counts>
           <entry key=".env file" value="2" />
           <entry key="JSON" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="36" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SmartyConfig" value="1" />
@@ -70,12 +59,14 @@
         <counts>
           <entry key="env" value="15" />
           <entry key="gitignore" value="25" />
+          <entry key="md" value="183" />
           <entry key="php" value="4333" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="15" />
+          <entry key="Markdown" value="183" />
           <entry key="PHP" value="4333" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
@@ -84,7 +75,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BusinessDateController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -92,6 +83,18 @@
               <folding>
                 <element signature="e#40#100#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -177,18 +180,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/BusinessDayCalculatorTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-              <folding>
-                <element signature="e#30#49#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -226,6 +217,7 @@
         <option value="$PROJECT_DIR$/tests/Unit/BusinessDayCalculatorTest.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BusinessDateController.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -248,10 +240,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2560" />
+    <option name="x" value="2516" />
     <option name="y" value="23" />
-    <option name="width" value="2018" />
-    <option name="height" value="1107" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -343,7 +335,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559311816337" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559314630416" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -381,18 +373,18 @@
       <updated>1559229005960</updated>
       <workItem from="1559229007178" duration="387000" />
       <workItem from="1559231117020" duration="3187000" />
-      <workItem from="1559290585548" duration="16338000" />
+      <workItem from="1559290585548" duration="16879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19912000" />
+    <option name="totallyTimeSpent" value="20453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,7 +401,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28704664" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28704664" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -643,6 +635,16 @@
           <folding>
             <element signature="e#40#100#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
