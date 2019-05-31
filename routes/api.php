@@ -16,3 +16,12 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::prefix('v1')->group(function () {
+    Route::prefix('businessDates')->group(function () {
+        Route::post('getBusinessDateWithDelay', '\\App\\Http\\Controllers\\BusinessDateController@withDelay');
+        Route::post('isBusinessDay', '\\App\\Http\\Controllers\\BusinessDateController@isBusinessDay');
+        Route::get('isBusinessDay/{initialDate}', '\\App\\Http\\Controllers\\BusinessDateController@isBusinessDay');
+    });
+});
+

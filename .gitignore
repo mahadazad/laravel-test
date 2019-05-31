@@ -3,7 +3,6 @@
 /public/storage
 /storage/*.key
 /vendor
-/laradock
 /.idea
 .env
 .phpunit.result.cache
